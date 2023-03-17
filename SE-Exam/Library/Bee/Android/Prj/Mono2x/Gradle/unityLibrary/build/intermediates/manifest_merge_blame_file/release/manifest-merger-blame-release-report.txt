@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.0.1-a" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-52
+12-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-49
+13    <uses-feature
+13-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-63
+15        android:required="false" />
+15-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:64-88
+16    <uses-feature
+16-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-88
+17        android:name="android.hardware.touchscreen"
+17-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-60
+18        android:required="false" />
+18-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:61-85
+19    <uses-feature
+19-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-71
+21        android:required="false" />
+21-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:72-96
+22    <uses-feature
+22-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-80
+24        android:required="false" />
+24-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:81-105
+25
+26    <application android:extractNativeLibs="true" >
+26-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-22:17
+26-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+27        <activity
+27-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+28            android:name="com.unity3d.player.UnityPlayerActivity"
+28-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+29-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
+30            android:hardwareAccelerated="false"
+30-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
+31            android:launchMode="singleTask"
+31-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
+32            android:resizeableActivity="false"
+32-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+33            android:screenOrientation="landscape"
+33-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
+34            android:theme="@style/UnityThemeSelector" >
+34-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+35            <intent-filter>
+35-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+36-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+38-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+39            </intent-filter>
+40
+41            <meta-data
+41-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+42                android:name="unityplayer.UnityActivity"
+42-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+43                android:value="true" />
+43-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+44
+45            <layout
+45-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-129
+46                android:defaultHeight="720px"
+46-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:15-44
+47                android:defaultWidth="1280px"
+47-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:45-74
+48                android:minHeight="720px"
+48-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:75-100
+49                android:minWidth="1280px" />
+49-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:101-126
+50        </activity>
+51
+52        <meta-data
+52-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+53            android:name="unity.splash-mode"
+53-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+54            android:value="0" />
+54-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+55        <meta-data
+55-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+56            android:name="unity.splash-enable"
+56-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+57            android:value="True" />
+57-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+58        <meta-data
+58-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+59            android:name="unity.launch-fullscreen"
+59-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+60            android:value="True" />
+60-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+61        <meta-data
+61-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+62            android:name="unity.allow-resizable-window"
+62-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+63            android:value="False" />
+63-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+64
+65        <receiver
+65-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-112
+66            android:name="com.unity.androidnotifications.UnityNotificationManager"
+66-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:15-85
+67            android:exported="true" />
+67-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:86-109
+68        <receiver
+68-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-21:16
+69            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+69-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-99
+70            android:enabled="false"
+70-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:100-123
+71            android:exported="true" >
+71-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:124-147
+72            <intent-filter>
+72-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:7-20:23
+73                <action android:name="android.intent.action.BOOT_COMPLETED" />
+73-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-71
+73-->P:\Github\Anino-SE-Exam\SE-Exam\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-68
+74            </intent-filter>
+75        </receiver>
+76    </application>
+77
+78</manifest>

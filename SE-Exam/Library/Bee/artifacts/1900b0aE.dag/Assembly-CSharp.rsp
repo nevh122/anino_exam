@@ -380,7 +380,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/TutorialInfo/Scripts/Readme.cs"
+"Assets/Scripts/Payout_UI_Buttons.cs"
+"Assets/Scripts/Reel_Data.cs"
+"Assets/Scripts/Slots_Controller.cs"
+"Assets/Scripts/Symbols_Data.cs"
 -langversion:9.0
 
 /deterministic
